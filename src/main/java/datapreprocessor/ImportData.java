@@ -53,11 +53,6 @@ public class ImportData {
             }
         }
 
-        for (int i = 0; i < dataCollection.size() ; i++) {
-            System.out.println("data "+ dataCollection.get(i).getModelVersionDescriptionYears());
-
-        }
-
     }
 
 }
