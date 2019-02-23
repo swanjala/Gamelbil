@@ -11,11 +11,10 @@ import java.util.List;
 
 public class ImportData {
 
-    public <T> void dataCollection(){
+    public List<CarModel> dataCollection(){
+
         List<CarModel> dataCollection = new ArrayList<>();
-
         String csvInput = "/Users/sam/Documents/SimpleData.csv";
-
         BufferedReader bufferedReader = null;
         String entry = "";
        String delimiter = ",";
@@ -37,6 +36,7 @@ public class ImportData {
                 dataCollection.add(carModel);
 
             }
+
             bufferedReader.close();
 
         } catch (FileNotFoundException e) {
@@ -52,6 +52,8 @@ public class ImportData {
                 }
             }
         }
+
+        return dataCollection;
 
     }
 
