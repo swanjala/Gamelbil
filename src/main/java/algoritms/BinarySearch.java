@@ -8,6 +8,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+/*
+* Logarithmis search O(log(n))
+* */
+
 public class BinarySearch {
 
     private int candidateData;

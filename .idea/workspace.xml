@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673e205c-c973-40db-81da-869eb0d67f70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algoritms/JumpSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/GamelbilApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GamelbilApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/datapreprocessor/ImportData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/datapreprocessor/data_model/CarModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ImportDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ImportDataTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GamelbilApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamelbilApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datapreprocessor/ImportData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datapreprocessor/data_model/CarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datapreprocessor/datamodel/CarModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datapreprocessor/data_model/DataTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImportDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImportDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -88,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+            <state relative-caret-position="270">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +90,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/JumpSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="405">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,14 +166,16 @@
         <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/Tag.java" />
         <option value="$PROJECT_DIR$/src/main/java/GamelbilApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/Tag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/JumpSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/JumpSearch.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="396" />
-    <option name="width" value="1284" />
+    <option name="x" value="692" />
+    <option name="width" value="988" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -368,22 +374,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="396" y="0" width="1284" height="1050" extended-state="6" />
+    <frame x="741" y="0" width="939" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17874396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41901776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41901776" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39916405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2675026" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2675026" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.45769763" />
@@ -468,20 +474,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+        <state relative-caret-position="405">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/LinearSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/JumpSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

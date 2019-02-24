@@ -25,7 +25,6 @@ public class LinearSearch {
             }
         }
         JOptionPane.showMessageDialog(null,"Car not found ");
-
     }
 }
 
