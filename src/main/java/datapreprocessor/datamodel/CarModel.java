@@ -1,4 +1,4 @@
-package datapreprocessor.data_model;
+package datapreprocessor.datamodel;
 
 public class CarModel {
 

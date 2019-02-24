@@ -1,6 +1,6 @@
-package datapreprocessor;
+package datapreprocessor.utils;
 
-import datapreprocessor.data_model.CarModel;
+import datapreprocessor.datamodel.CarModel;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

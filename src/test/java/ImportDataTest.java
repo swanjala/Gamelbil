@@ -1,4 +1,4 @@
-import datapreprocessor.ImportData;
+import datapreprocessor.utils.ImportData;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
