@@ -5,12 +5,6 @@ import datapreprocessor.datamodel.CarModel;
 import javax.swing.*;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
-
-/*
-* Logarithmis search O(log(n))
-* */
 
 public class BinarySearch {
 
@@ -18,8 +12,7 @@ public class BinarySearch {
     private int keyMin;
     private int keyMax;
     private Integer [] keySets;
-    /* Data is linear tagged therefore
-    * no need to sort*/
+
     private HashMap<Integer,List<CarModel>> carData = new HashMap<>();
 
     public BinarySearch (HashMap<Integer, List<CarModel>> carData, Integer [] keySets) {

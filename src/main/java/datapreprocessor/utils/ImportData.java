@@ -32,7 +32,6 @@ public class ImportData {
                         dataInCollumn[7], dataInCollumn[8], dataInCollumn[9],dataInCollumn[10],
                         dataInCollumn[11],
                         dataInCollumn[12], dataInCollumn[13]);
-
                 dataCollection.add(carModel);
 
             }
