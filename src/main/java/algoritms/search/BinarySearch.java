@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Class implements a binary search
+ * Class implements a binary search:
  */
 public class BinarySearch {
     /**
