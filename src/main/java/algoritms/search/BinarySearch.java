@@ -9,8 +9,8 @@ import java.util.List;
 public class BinarySearch {
 
     private int candidateData;
-    private int keyMin;
-    private int keyMax;
+    private int keyMinimum;
+    private int keyMaximum;
     private Integer [] keySets;
 
     private HashMap<Integer,List<CarModel>> carData = new HashMap<>();
@@ -18,23 +18,23 @@ public class BinarySearch {
     public BinarySearch (HashMap<Integer, List<CarModel>> carData, Integer [] keySets) {
         this.carData = carData;
         this.keySets = keySets;
-        this.keyMin = keySets[0];
-        this.keyMax = keySets[keySets.length -1];
+        this.keyMinimum = keySets[0];
+        this.keyMaximum = keySets[keySets.length -1];
 
     }
 
     public boolean search(int key) {
 
-        while(keyMin <= keyMax){
-            int mid = (keyMin+keyMax)/2;
-            if (keySets[mid] < key){
-                keyMin = mid + 1;
-            } else if (keySets[mid]> key){
-                keyMax = mid - 1;
-            } else if (keySets[mid] == key){
+        while(keyMinimum <= keyMaximum){
+            int keyMiddle= (keyMinimum+keyMaximum)/2;
+            if (keySets[keyMiddle] < key){
+                keyMinimum = keyMiddle + 1;
+            } else if (keySets[keyMiddle]> key){
+                keyMaximum = keyMiddle - 1;
+            } else if (keySets[keyMiddle] == key){
 
                 JOptionPane.showMessageDialog(null, "Car found "
-                        + carData.get(keySets[mid]).get(0).getBodyType());
+                        + carData.get(keySets[keyMiddle]).get(0).getBodyType());
                 return true;
             }
         }
