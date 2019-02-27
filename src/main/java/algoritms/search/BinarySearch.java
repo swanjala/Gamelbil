@@ -7,8 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 
 public class BinarySearch {
-
-    private int candidateData;
     private int keyMinimum;
     private int keyMaximum;
     private Integer [] keySets;
