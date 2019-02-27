@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673e205c-c973-40db-81da-869eb0d67f70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/graphTraversal/GraphBreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphTraversal/GraphBreadthFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphTraversal/ShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,17 +51,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/graphTraversal/GraphBreadthFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="310">
+              <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
                 <element signature="e#687#696#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/graphTraversal/ShortestPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -110,12 +120,13 @@
         <option value="$PROJECT_DIR$/src/main/java/algoritms/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphTraversal/GraphBreadthFirst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/graphTraversal/ShortestPath.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1680" />
-    <option name="width" value="1600" />
+    <option name="width" value="989" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -172,14 +183,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="graphTraversal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="treeTraversal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
@@ -325,10 +328,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1600" height="900" extended-state="6" />
+    <frame x="1680" y="0" width="989" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20795892" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34213305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -340,7 +343,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23915738" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23915738" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.45769763" />
@@ -513,14 +516,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/graphTraversal/GraphBreadthFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="310">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
             <element signature="e#687#696#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/graphTraversal/ShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
