@@ -80,12 +80,12 @@ class Node {
         }
 
 
-     void printInOrder() {
+       void printInOrder() {
             printInOrder(root);
         }
 
 
-     void printPreOrder() {
+         void printPreOrder() {
             printPreOrder(root);
         }
 
