@@ -9,7 +9,7 @@ class GraphBreadthFirst
 
     GraphBreadthFirst(int vertices)
     {
-        numberOfVertices = numberOfVertices;
+        numberOfVertices = vertices;
         adjacencyList = new LinkedList[numberOfVertices];
 
         for (int index = 0; index < vertices ; index++) {
@@ -43,6 +43,22 @@ class GraphBreadthFirst
             }
         }
     }
+    void depthFirstSearchUtil(int vertex, boolean visited[]) {
+        visited[vertex] = true;
+        System.out.println(vertex + " ");
+
+        Iterator<Integer> iterator = adjacencyList[vertex].listIterator();
+        while (iterator.hasNext()){
+            int item = iterator.next();
+            if(!visited[item]){
+                depthFirstSearchUtil(item, visited);
+            }
+        }
+    }
+    void depthFirstSearch(int vertex){
+        boolean visited[] = new boolean[numberOfVertices];
+        depthFirstSearchUtil(vertex, visited);
+    }
 
     public static void main(String args[]){
         GraphBreadthFirst graphBreadthFirst = new  GraphBreadthFirst(4);
@@ -56,6 +72,9 @@ class GraphBreadthFirst
         System.out.println("Breadth first traversal, Starting from vertex 2");
 
         graphBreadthFirst.breadthFirstSearch(2);
+
+        // depth first search
+        graphBreadthFirst.depthFirstSearch(3);
 
     }
 
