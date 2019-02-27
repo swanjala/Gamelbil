@@ -1,6 +1,7 @@
-import algoritms.BinarySearch;
+import algoritms.search.BinarySearch;
 import datapreprocessor.utils.ImportData;
 import datapreprocessor.utils.Tag;
+
 
 import java.util.Scanner;
 
