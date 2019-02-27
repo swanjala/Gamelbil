@@ -18,6 +18,13 @@ class NodeForSearch {
 
 }
     class Traversals{
+    /**
+     *  @param root: the node root value
+    * @param treeHeight: the number of levels that the tree has
+     * @param index : counter for the level iteration.
+     * @param leftHeight: the level of the left tree.
+     * @Param rightHeight: the level of the right node
+    * */
         Node root;
 
         public Traversals(){
@@ -25,9 +32,13 @@ class NodeForSearch {
         }
 
         void printLevelOrder() {
-
+            //Determine the number of levels of the tree
             int treeHeight = height(root);
             int index;
+            /*
+            Step through each level and print all the node value in the level
+            */
+
             for (index = 1; index <= treeHeight; index++) {
                 printGivenLevel(root, index);
             }
@@ -38,6 +49,8 @@ class NodeForSearch {
                     return 0;
                 }
                 else
+                    /* Setting the left node and right node heights for
+                    * same level traversal*/
                 {
                     int leftHeight =height(root.left);
                     int rightHeight = height(root.right);
