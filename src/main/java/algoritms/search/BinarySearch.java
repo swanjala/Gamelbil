@@ -6,7 +6,23 @@ import javax.swing.*;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Class implements a binary search
+ */
 public class BinarySearch {
+    /**
+     * @param keyMinimum : The key to the first element in the candidate
+     *                   data which also coincides with the lowest value
+     *                   in an ordered/sorted list at any point during
+     *                   the search.
+     * @param keyMaximum : The key to the last element in the candidate
+     *                   data which also coincides with the highest value
+     *                   in an ordered/sorted list at any point during
+     *                   the search.
+     * @param keySet: candidate data to be searched.
+     * @param carData: Hashmap containing data associated with the searched key
+     *               which provides a meaningful output after a search
+     */
     private int keyMinimum;
     private int keyMaximum;
     private Integer [] keySets;
@@ -23,20 +39,54 @@ public class BinarySearch {
 
     public boolean search(int key) {
 
+        /*Run the loop while the last value is not
+        * the functioning minimum at any point during
+        * the search*/
+
         while(keyMinimum <= keyMaximum){
+
+            // find the mid point of the list during an iteration.
             int keyMiddle= (keyMinimum+keyMaximum)/2;
+
+            /*If the current middle point of the keyset
+             * is less than the key, make the first value after the
+             * middle the first value(minimum value) of the next iteration
+             * this will allow the iteration to run for the values that are above the
+             * middle level , this is because the value in an ordered list then can
+             * only be found above the mid point in the direction towards the end of the list*/
+
             if (keySets[keyMiddle] < key){
                 keyMinimum = keyMiddle + 1;
-            } else if (keySets[keyMiddle]> key){
+            }
+            /*
+            * If the middle value of the key set is larger than the
+            * value being searched for, set the value before the mid to be
+            * the new maximum for the next iteration, as the minimum remains the same
+            * given that if the value being searched exists, it should be in the
+            * linear space between the minimum value and the middle.*/
+            else if (keySets[keyMiddle]> key){
                 keyMaximum = keyMiddle - 1;
-            } else if (keySets[keyMiddle] == key){
+            }
+            /*
+            * If the middle value is the same as the candidate key then the value
+            * being searched for has been found.
+            * The pop up will display the car associated with the key
+            * found in the keyset.
+             */
+
+            else if (keySets[keyMiddle] == key){
 
                 JOptionPane.showMessageDialog(null, "Car found "
                         + carData.get(keySets[keyMiddle]).get(0).getBodyType());
                 return true;
             }
         }
-        JOptionPane.showMessageDialog(null,"Number not found");
+        /*
+        * If the number being searched for is not in the list, a pop up with
+        * will show up notifying the user that the car associated with the key
+        * is not found
+         */
+        JOptionPane.showMessageDialog(null,"Car not found");
         return false;
     }
 
