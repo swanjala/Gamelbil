@@ -26,10 +26,10 @@ class NodeForSearch {
 
         void printLevelOrder() {
 
-            int h = height(root);
-            int i;
-            for (i = 1; i <= h; i++) {
-                printGivenLevel(root, i);
+            int treeHeight = height(root);
+            int index;
+            for (index = 1; index <= treeHeight; index++) {
+                printGivenLevel(root, index);
             }
         }
 
@@ -39,13 +39,13 @@ class NodeForSearch {
                 }
                 else
                 {
-                    int lheight =height(root.left);
-                    int rheight = height(root.right);
+                    int leftHeight =height(root.left);
+                    int rightHeight = height(root.right);
 
-                    if(lheight > rheight){
-                        return lheight + 1;
+                    if(leftHeight > rightHeight){
+                        return leftHeight + 1;
                     } else {
-                        return lheight+1;
+                        return leftHeight+1;
                     }
                 }
         }
