@@ -75,31 +75,16 @@ class Node {
 
         }
 
-        /** Wrappers over above recursive functions
-            * summary
-         * Post order..
-         * Parsing data from the child to the parent
-         * visit the root item last
-         * complexity s O (n) where n is the number of nodes in the tree.
-         */
         void printPostOrder() {
             printPostOrder(root);
         }
 
-     /**
-      * In-order
-      * Visit the left most node first then visit the right node.
-      * Complexity s O (n) where n is the number of nodes in the tree.
-      */
+
      void printInOrder() {
             printInOrder(root);
         }
 
-     /**
-      * Start from the root element and visit the left
-      * then the right side.
-      * Complexity s O (n) where n is the number of nodes in the tree.
-      */
+
      void printPreOrder() {
             printPreOrder(root);
         }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673e205c-c973-40db-81da-869eb0d67f70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/treeTraversal/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/treeTraversal/Node.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,15 +37,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="278">
+              <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
               <folding>
                 <element signature="e#434#435#0" expanded="true" />
                 <element signature="e#468#469#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/treeTraversal/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -149,10 +158,10 @@
         <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/treeTraversal/BreadthDepthSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/treeTraversal/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/GamelbilApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/treeTraversal/Node.java" />
       </list>
     </option>
   </component>
@@ -266,7 +275,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="treeTraversal" type="462c0819:PsiDirectoryNode" />
-              <item name="NodeForSearch.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Node.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
@@ -496,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/treeTraversal/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/search/ExponentialSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -589,12 +591,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="278">
+          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
           <folding>
             <element signature="e#434#435#0" expanded="true" />
             <element signature="e#468#469#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/treeTraversal/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="73" column="38" lean-forward="true" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
         </state>
       </provider>
     </entry>
