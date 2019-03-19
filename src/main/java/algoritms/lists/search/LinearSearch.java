@@ -6,16 +6,17 @@ import javax.swing.*;
 import java.util.List;
 
 /**
- *Implements a linear lists
- */
+ *Implements a linear search on an array
+ *
+ * */
 public class LinearSearch {
 
     /**
-     * @param carList : List of cars of type CarModel, this is
-     *                used to provide a readable name for lists results
-     * @param loadedKeySets : An array of interger keys on which the binary
-     *                      lists is applied.
-     * @param key: the candidate value for the binary lists
+     * @param carList : List of cars of type CarModel, provides
+     *               a readable name for search results.
+     * @param loadedKeySets : An array of integer keys on which the linear
+     *                      search is applied.
+     * @param key: the candidate value associated with a specific car.
      */
 
     private List<CarModel> carList;
@@ -32,12 +33,11 @@ public class LinearSearch {
 
     public void searchCar() {
         /*
-        * Iterates through the key set sequentially with an incremental index
+        * Iterates through the key set sequentially using an incremental index
         * (by 1) and either returns a pop up message with the name of the car
-        * that's associated with the car in the list when the item is found
-        * and and also pops up the car not found message if the key
-        * being searched for is not found or none of the cars in the list
-        * are associated with the key.
+        * that's associated with the index in the list when the item is found
+        * or pops up the car not found message if the key
+        * being searched for is not associated with any of the cars in the list
         * */
         for (int i = 0; i < keySets.length; i++) {
             if (keySets[i] == searchKey){
