@@ -1,4 +1,4 @@
-package treeTraversal;
+package algoritms.trees.treeTraversal;
 
 class NodeForSearch {
     /**

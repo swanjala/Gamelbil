@@ -1,4 +1,4 @@
-package algoritms.search;
+package algoritms.lists.search;
 
 import datapreprocessor.datamodel.CarModel;
 

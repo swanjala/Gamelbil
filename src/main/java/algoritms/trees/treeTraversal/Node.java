@@ -1,10 +1,10 @@
-package treeTraversal;
+package algoritms.trees.treeTraversal;
 
 class Node {
     char data;
     Node left, right;
 
-    public Node(char item) {
+     Node(char item) {
         data = item;
         left = right = null;
     }
@@ -15,9 +15,9 @@ class Node {
  * Keep their keys in sorted order
  * traversed from root to leaf
  */
- class BinaryTree {
-        Node root;
-        int preIndex = 0;
+class  BinaryTree {
+       private Node root;
+       private int preIndex = 0;
         Node buildTree(char in[], char pre[], int inStrt, int inEnd){
             if(inStrt > inEnd){
                 return null;
@@ -60,8 +60,7 @@ class Node {
             if (node == null){
                 return;
             }
-            printInOrder(node.left);
-            System.out.println(node.data + " ");
+          System.out.println(node.data + " ");
             printInOrder(node.right);
 
         }

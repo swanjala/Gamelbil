@@ -1,4 +1,4 @@
-import algoritms.search.BinarySearch;
+import algoritms.lists.search.BinarySearch;
 import datapreprocessor.utils.ImportData;
 import datapreprocessor.utils.Tag;
 

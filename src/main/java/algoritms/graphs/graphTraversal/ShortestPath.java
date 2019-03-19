@@ -1,6 +1,4 @@
-package graphTraversal;
-
-import com.sun.org.apache.xpath.internal.operations.Bool;
+package algoritms.graphs.graphTraversal;
 
 public class ShortestPath {
     /* Class find the vertex with minimum distance value

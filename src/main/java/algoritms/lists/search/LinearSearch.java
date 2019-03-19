@@ -1,4 +1,4 @@
-package algoritms.search;
+package algoritms.lists.search;
 
 import datapreprocessor.datamodel.CarModel;
 
@@ -6,16 +6,16 @@ import javax.swing.*;
 import java.util.List;
 
 /**
- *Implements a linear search
+ *Implements a linear lists
  */
 public class LinearSearch {
 
     /**
      * @param carList : List of cars of type CarModel, this is
-     *                used to provide a readable name for search results
+     *                used to provide a readable name for lists results
      * @param loadedKeySets : An array of interger keys on which the binary
-     *                      search is applied.
-     * @param key: the candidate value for the binary search
+     *                      lists is applied.
+     * @param key: the candidate value for the binary lists
      */
 
     private List<CarModel> carList;
