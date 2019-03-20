@@ -1,116 +1,58 @@
 package algoritms.trees.treeTraversal;
 
-class Node {
-    char data;
-    Node left, right;
-
-     Node(char item) {
-        data = item;
-        left = right = null;
-    }
-}
+import algoritms.trees.print_service.AbstractTreePrinter;
 
 /**
  * Ordered or sorted trees.
  * Keep their keys in sorted order
  * traversed from root to leaf
  */
-class  BinaryTree {
-       private Node root;
-       private int preIndex = 0;
-        Node buildTree(char in[], char pre[], int inStrt, int inEnd){
-            if(inStrt > inEnd){
-                return null;
-            }
-            Node tNode = new Node(pre[preIndex++]);
+public class  BinaryTree extends AbstractTreePrinter {
 
-            if (inStrt == inEnd){
-                return tNode;
-            }
-            int inIndex = search(in, inStrt,inEnd, tNode.data);
+    public BinaryTreeNodes root;
 
-            tNode.left = buildTree(in, pre, inStrt, inIndex -1);
-            tNode.right = buildTree(in, pre, inIndex +1, inEnd);
-
-            return tNode;
+    private void printPostOrder(BinaryTreeNodes node){
+        if(node == null){
+            return;
         }
+        printPostOrder(node.left);
+        printPostOrder(node.right);
+        System.out.print(node.data + " ");
+    }
 
-        int search(char arr[], int strt, int end, char value) {
-
-            int index;
-            for (index = strt; index <= end; index++) {
-                if (arr[index] == value) {
-                    return index;
-                }
-            }
-            return index;
+    private void printInOrder(BinaryTreeNodes node){
+        if (node == null){
+            return;
         }
+        System.out.println(node.data + " ");
+        printInOrder(node.right);
 
-        void printPostOrder(Node node){
-            if(node == null){
-                return;
-            }
-            printPostOrder(node.left);
-            printPostOrder(node.right);
-            System.out.print(node.data + " ");
+    }
+
+    private void printPreOrder(BinaryTreeNodes node){
+        if(node == null){
+            return;
         }
+        System.out.println(node.data + " " );
+        printPreOrder(node.left);
+        printPreOrder(node.right);
+
+    }
 
 
-            void printInOrder(Node node){
-            if (node == null){
-                return;
-            }
-          System.out.println(node.data + " ");
-            printInOrder(node.right);
+    public void printPostOrder() {
+        printPostOrder(root);
+    }
 
-        }
-        void printPreOrder(Node node){
-            if(node == null){
-                return;
-            }
-            System.out.println(node.data + " " );
-            printPreOrder(node.left);
-            printPreOrder(node.right);
+    public void printInOrder() {
+        printInOrder(root);
+    }
 
-        }
-
-        void printPostOrder() {
-            printPostOrder(root);
-        }
+    public void printPreOrder() {
+        printPreOrder(root);
+    }
 
 
-       void printInOrder() {
-            printInOrder(root);
-        }
-
-
-         void printPreOrder() {
-            printPreOrder(root);
-        }
-
-        public static void main(String [] args){
-            BinaryTree binaryTree = new BinaryTree();
-
-            binaryTree.root = new Node('1');
-            binaryTree.root.left = new Node ('2');
-            binaryTree.root.right = new Node('3');
-            binaryTree.root.left.left = new Node('4');
-            binaryTree.root.left.right = new Node('5');
-
-
-            /* Displaying data's parsing order*/
-
-
-            System.out.println("Preorder traversal of binary tree is");
-            binaryTree.printPreOrder();
-
-            System.out.println("In Order traversal of binary tree is");
-            binaryTree.printInOrder();
-
-            System.out.println("Post Order traversal of binary tree is");
-            binaryTree.printPostOrder();
-
-        }
-   }
+}
 
 
