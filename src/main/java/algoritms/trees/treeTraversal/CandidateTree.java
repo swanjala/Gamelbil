@@ -7,11 +7,11 @@ import algoritms.trees.print_service.AbstractTreePrinter;
  * Keep their keys in sorted order
  * traversed from root to leaf
  */
-public class  BinaryTree extends AbstractTreePrinter {
+public class CandidateTree extends AbstractTreePrinter {
 
-    public BinaryTreeNodes root;
+    public CandidateTreeNodes root;
 
-    private void printPostOrder(BinaryTreeNodes node){
+    private void printPostOrder(CandidateTreeNodes node){
         if(node == null){
             return;
         }
@@ -20,7 +20,7 @@ public class  BinaryTree extends AbstractTreePrinter {
         System.out.print(node.data + " ");
     }
 
-    private void printInOrder(BinaryTreeNodes node){
+    private void printInOrder(CandidateTreeNodes node){
         if (node == null){
             return;
         }
@@ -30,7 +30,7 @@ public class  BinaryTree extends AbstractTreePrinter {
 
     }
 
-    private void printPreOrder(BinaryTreeNodes node){
+    private void printPreOrder(CandidateTreeNodes node){
         if(node == null){
             return;
         }
@@ -39,7 +39,6 @@ public class  BinaryTree extends AbstractTreePrinter {
         printPreOrder(node.right);
 
     }
-
 
     public void printPostOrder() {
         printPostOrder(root);
