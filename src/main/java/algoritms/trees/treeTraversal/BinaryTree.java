@@ -24,6 +24,7 @@ public class  BinaryTree extends AbstractTreePrinter {
         if (node == null){
             return;
         }
+        printInOrder(node.left);
         System.out.println(node.data + " ");
         printInOrder(node.right);
 
