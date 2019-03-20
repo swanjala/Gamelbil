@@ -3,7 +3,7 @@ package algoritms.trees;
 
 import algoritms.trees.treeTraversal.TreeBuilder;
 
-class RunnerClass {
+class TreeRunnerClass {
 
     public static void main(String [] args){
 
