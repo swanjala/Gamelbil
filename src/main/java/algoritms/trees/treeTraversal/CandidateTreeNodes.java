@@ -1,10 +1,10 @@
 package algoritms.trees.treeTraversal;
 
-public class BinaryTreeNodes {
+public class CandidateTreeNodes {
     char data;
-    BinaryTreeNodes left, right;
+    CandidateTreeNodes left, right;
 
-    protected BinaryTreeNodes(char item) {
+    protected CandidateTreeNodes(char item) {
         data = item;
         left = right = null;
     }
