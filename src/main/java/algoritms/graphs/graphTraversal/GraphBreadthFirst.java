@@ -1,6 +1,5 @@
-package graphTraversal;
+package algoritms.graphs.graphTraversal;
 
-import java.io.*;
 import java.util.*;
 class GraphBreadthFirst
 {
@@ -73,7 +72,7 @@ class GraphBreadthFirst
 
         graphBreadthFirst.breadthFirstSearch(2);
 
-        // depth first search
+        // depth first lists
         graphBreadthFirst.depthFirstSearch(3);
 
     }

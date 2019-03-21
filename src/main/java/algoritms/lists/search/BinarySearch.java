@@ -1,4 +1,4 @@
-package algoritms.search;
+package algoritms.lists.search;
 
 import datapreprocessor.datamodel.CarModel;
 
@@ -7,21 +7,21 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Class implements a binary search:
+ * Class implements a binary lists:
  */
 public class BinarySearch {
     /**
      * @param keyMinimum : The key to the first element in the candidate
      *                   data which also coincides with the lowest value
      *                   in an ordered/sorted list at any point during
-     *                   the search.
+     *                   the lists.
      * @param keyMaximum : The key to the last element in the candidate
      *                   data which also coincides with the highest value
      *                   in an ordered/sorted list at any point during
-     *                   the search.
+     *                   the lists.
      * @param keySet: candidate data to be searched.
      * @param carData: Hashmap containing data associated with the searched key
-     *               which provides a meaningful output after a search
+     *               which provides a meaningful output after a lists
      */
     private int keyMinimum;
     private int keyMaximum;
@@ -41,14 +41,14 @@ public class BinarySearch {
 
         /*Run the loop while the last value is not
         * the functioning minimum at any point during
-        * the search*/
+        * the lists*/
 
         while(keyMinimum <= keyMaximum){
 
             // find the mid point of the list during an iteration.
             int keyMiddle= (keyMinimum+keyMaximum)/2;
 
-            /*If the current middle point of the keyset
+            /*If the current middle point of the key set
              * is less than the key, make the first value after the
              * middle the first value(minimum value) of the next iteration
              * this will allow the iteration to run for the values that are above the
