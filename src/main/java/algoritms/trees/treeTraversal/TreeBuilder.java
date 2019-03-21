@@ -4,17 +4,17 @@ import algoritms.trees.print_service.AbstractTreePrinter;
 
 public class TreeBuilder implements Runnable {
 
-    public final AbstractTreePrinter iTreePrinter = new BinaryTree();
+    public final AbstractTreePrinter iTreePrinter = new CandidateTree();
 
     public void run() {
 
         try {
 
-            ((BinaryTree) iTreePrinter).root = new BinaryTreeNodes('1');
-            ((BinaryTree) iTreePrinter).root.left = new BinaryTreeNodes('2');
-            ((BinaryTree) iTreePrinter).root.right = new BinaryTreeNodes('3');
-            ((BinaryTree) iTreePrinter).root.left.left = new BinaryTreeNodes('4');
-            ((BinaryTree) iTreePrinter).root.left.right = new BinaryTreeNodes('5');
+            ((CandidateTree) iTreePrinter).root = new CandidateTreeNodes('1');
+            ((CandidateTree) iTreePrinter).root.left = new CandidateTreeNodes('2');
+            ((CandidateTree) iTreePrinter).root.right = new CandidateTreeNodes('3');
+            ((CandidateTree) iTreePrinter).root.left.left = new CandidateTreeNodes('4');
+            ((CandidateTree) iTreePrinter).root.left.right = new CandidateTreeNodes('5');
 
         } finally {
 

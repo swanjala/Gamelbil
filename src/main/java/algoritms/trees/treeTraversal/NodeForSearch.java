@@ -9,7 +9,7 @@ class NodeForSearch {
      * -- post-order traversals
      */
     int data;
-    BinaryTreeNodes left, right;
+    CandidateTreeNodes left, right;
 
     public NodeForSearch(int item) {
         data = item;
@@ -25,7 +25,7 @@ class NodeForSearch {
      * @param leftHeight: the level of the left tree.
      * @Param rightHeight: the level of the right node
     * */
-        BinaryTreeNodes root;
+        CandidateTreeNodes root;
 
         public Traversals(){
             root =null;
@@ -44,7 +44,7 @@ class NodeForSearch {
             }
         }
 
-        int height(BinaryTreeNodes root){
+        int height(CandidateTreeNodes root){
                 if(root == null){
                     return 0;
                 }
@@ -63,7 +63,7 @@ class NodeForSearch {
                 }
         }
 
-            void printGivenLevel(BinaryTreeNodes root, int level){
+            void printGivenLevel(CandidateTreeNodes root, int level){
                 if (root== null){
                     return;
                 }
@@ -78,11 +78,11 @@ class NodeForSearch {
 
             public static void main(String args[]){
                 Traversals traversals = new Traversals();
-                traversals.root = new BinaryTreeNodes('1');
-                traversals.root.left = new BinaryTreeNodes('2');
-                traversals.root.right = new BinaryTreeNodes('3');
-                traversals.root.left.left = new BinaryTreeNodes('4');
-                traversals.root.left.right = new BinaryTreeNodes('5');
+                traversals.root = new CandidateTreeNodes('1');
+                traversals.root.left = new CandidateTreeNodes('2');
+                traversals.root.right = new CandidateTreeNodes('3');
+                traversals.root.left.left = new CandidateTreeNodes('4');
+                traversals.root.left.right = new CandidateTreeNodes('5');
 
                 System.out.println("Level order traversal of binary tree is:");
                 traversals.printLevelOrder();
