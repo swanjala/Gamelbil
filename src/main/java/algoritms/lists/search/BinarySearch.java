@@ -3,8 +3,10 @@ package algoritms.lists.search;
 import datapreprocessor.datamodel.CarModel;
 
 import javax.swing.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Class implements a binary lists:
@@ -28,6 +30,7 @@ public class BinarySearch {
     private Integer [] keySets;
 
     private HashMap<Integer,List<CarModel>> carData = new HashMap<>();
+
 
     public BinarySearch (HashMap<Integer, List<CarModel>> carData, Integer [] keySets) {
         this.carData = carData;

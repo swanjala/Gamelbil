@@ -58,7 +58,7 @@ class NodeForSearch {
                     if(leftHeight > rightHeight){
                         return leftHeight + 1;
                     } else {
-                        return leftHeight+1;
+                        return rightHeight+1;
                     }
                 }
         }
@@ -68,11 +68,12 @@ class NodeForSearch {
                     return;
                 }
                 if(level == 1){
-                    System.out.print(root.data + " ");
+                    System.out.print(root.data + " "+" Level" + level);
 
                 } else if (level > 1){
                     printGivenLevel(root.left, level -1);
                     printGivenLevel(root.right, level- 1);
+
                 }
             }
 
