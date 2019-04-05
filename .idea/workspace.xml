@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="673e205c-c973-40db-81da-869eb0d67f70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/GamelbilApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GamelbilApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/search/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/search/ExponentialSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/search/InterpolationSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/search/JumpSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/search/LinearSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/treeTraversal/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/treeTraversal/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/treeTraversal/NodeForSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/treeTraversal/Traversals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algoritms/lists/search/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritms/lists/search/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/Gamelbil.Gamelbil.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/lists/search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algoritms/lists/search/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/trees/treeTraversal/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/trees/treeTraversal/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/trees/treeTraversal/NodeForSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algoritms/trees/treeTraversal/NodeForSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/algoritms/trees/treeTraversal/Traversals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algoritms/trees/treeTraversal/Traversals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/datapreprocessor/utils/ImportData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/datapreprocessor/utils/ImportData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GamelbilApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GamelbilApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTreeNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/NodeForSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/NodeForSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,10 +53,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/NodeForSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/graphs/graphTraversal/ShortestPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/TreeRunnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="527">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,30 +96,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-701">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/NodeForSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/Tag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="915">
+              <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+                <element signature="e#1842#1843#0" expanded="true" />
+                <element signature="e#1876#1877#0" expanded="true" />
+                <element signature="e#1910#1911#0" expanded="true" />
+                <element signature="e#1945#1946#0" expanded="true" />
+                <element signature="e#1980#1981#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,31 +114,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GamelbilApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1551179278995" expanded="true" signature="644:1268" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/ExponentialSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -128,22 +125,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/InterpolationSearch.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/LinearSearch.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/Tag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="480">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,13 +146,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/JumpSearch.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTreeNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -168,9 +159,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class</find>
+      <find>root</find>
+      <find>buildTree</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/GamelBilApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/data_model/CarModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/ImportData.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -199,10 +197,8 @@
         <option value="$PROJECT_DIR$/src/main/java/treedata/NodeOps.java" />
         <option value="$PROJECT_DIR$/src/main/java/treedata/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/treedata/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/treeTraversal/BreadthDepthSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GamelbilApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/search/LinearSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/treeTraversal/NodeForSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/graphTraversal/GraphBreadthFirst.java" />
@@ -211,15 +207,34 @@
         <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/datamodel/Sample.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/lists/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/lists/LinearSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/algoritms/lists/search/LinearSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/interfaces/IBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/printService/IBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/Service/IBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/IBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/IBinaryTreePrintService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/BinaryTreeNodes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/AbstractBinaryTreePrintService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/RunnerClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/ITreePrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/TreeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/AbstractTreePrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/NodeForSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GamelbilApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTreeNodes.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="64" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,127 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="algoritms" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="algoritms" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="graphs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="Gamelbil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algoritms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="lists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="algoritms" type="462c0819:PsiDirectoryNode" />
-              <item name="lists" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -364,6 +258,90 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritms" type="462c0819:PsiDirectoryNode" />
+              <item name="graphTraversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datapreprocessor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datapreprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="datamodel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datapreprocessor" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Gamelbil" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Gamelbil" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,6 +349,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -393,13 +372,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Traversals">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritms.trees.treeTraversal.BinaryTree" />
+  <component name="RunManager" selected="Application.ImportData">
+    <configuration name="CandidateTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritms.trees.treeTraversal.CandidateTree" />
       <module name="Gamelbil.Gamelbil.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoritms.trees.treeTraversal.*" />
+          <option name="PATTERN" value="algoritms.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,12 +393,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritms.trees.treeTraversal.Traversals" />
+    <configuration name="ImportData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datapreprocessor.utils.ImportData" />
       <module name="Gamelbil.Gamelbil.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoritms.trees.treeTraversal.*" />
+          <option name="PATTERN" value="datapreprocessor.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -427,20 +406,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Gamelbil.Gamelbil.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ImportDataTest" />
+    <configuration name="Traversals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritms.trees.treeTraversal.Traversals" />
+      <module name="Gamelbil.Gamelbil.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoritms.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeRunnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritms.trees.TreeRunnerClass" />
+      <module name="Gamelbil.Gamelbil.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoritms.trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImportData" />
         <item itemvalue="Application.Traversals" />
-        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.TreeRunnerClass" />
+        <item itemvalue="Application.CandidateTree" />
         <item itemvalue="Application.GamelbilApp" />
-        <item itemvalue="JUnit.ImportDataTest" />
       </list>
     </recent_temporary>
   </component>
@@ -493,45 +491,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="64" width="1680" height="978" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17582418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25091577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24973877" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2825279" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46185997" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2824074" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33019853" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4027778" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.45769763" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283767" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3939394" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.15018316" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.054945055" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -552,26 +543,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/DataTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/TreeTraversals.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/datamodel/Sample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/graphs/graphTraversal/ShortestPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/datamodel/CarModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#3680#3681#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#3899#3900#0" expanded="true" />
-            <element signature="e#3926#3927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -579,16 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
           <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/graphs/graphTraversal/GraphBreadthFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,17 +563,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/ExponentialSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/ExponentialSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/JumpSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/AbstractBinaryTreePrintService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/InterpolationSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/LinearSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/graphs/graphTraversal/GraphBreadthFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/datamodel/CarModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#3680#3681#0" expanded="true" />
+            <element signature="e#3725#3726#0" expanded="true" />
+            <element signature="e#3899#3900#0" expanded="true" />
+            <element signature="e#3926#3927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/TreeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/print_service/AbstractTreePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GamelbilApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -622,78 +685,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/InterpolationSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/TreeRunnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/JumpSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTreeNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/CandidateTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-701">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="915">
+          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding>
+            <element signature="e#1806#1807#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/trees/treeTraversal/NodeForSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/ImportData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        <state relative-caret-position="9">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1551179278995" expanded="true" signature="644:1268" ph="..." />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datapreprocessor/utils/Tag.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GamelbilApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/graphs/graphTraversal/ShortestPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algoritms/lists/search/LinearSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>

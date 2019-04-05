@@ -7,14 +7,15 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class ImportData {
 
-    public List<CarModel> dataCollection(){
+    public static void dataCollection(){
 
         List<CarModel> dataCollection = new ArrayList<>();
-        String csvInput = "/Users/sam/Documents/SimpleData.csv";
+        String csvInput = "/Users/sam/Desktop/ISO3166-Sheet1.csv";
         BufferedReader bufferedReader = null;
         String entry = "";
        String delimiter = ",";
@@ -22,17 +23,27 @@ public class ImportData {
         try {
             bufferedReader = new BufferedReader(new FileReader(csvInput));
 
+            HashMap<String, String> data = new HashMap<>();
+;
             while ((entry = bufferedReader.readLine()) != null) {
 
                 String[] dataInCollumn = entry.trim().split(delimiter);
 
-                CarModel carModel = new CarModel(dataInCollumn[0], dataInCollumn[1],
-                        dataInCollumn[2], dataInCollumn[3],dataInCollumn[4],
-                        dataInCollumn[5],dataInCollumn[6],
-                        dataInCollumn[7], dataInCollumn[8], dataInCollumn[9],dataInCollumn[10],
-                        dataInCollumn[11],
-                        dataInCollumn[12], dataInCollumn[13]);
-                dataCollection.add(carModel);
+
+                data.put(dataInCollumn[0], dataInCollumn[1]);
+
+
+                System.out.println("data.put(\""+dataInCollumn[1]+ "\",\""+dataInCollumn[0]+"\");");
+
+
+
+//                CaModel carModel = new CarModel(    dataInCollumn[0], dataInCollumn[1],
+//                        dataInCollumn[2], dataInCollumn[3],dataInCollumn[4],
+//                        dataInCollumn[5],dataInCollumn[6],
+//                        dataInCollumn[7], dataInCollumn[8], dataInCollumn[9],dataInCollumn[10],
+//                        dataInCollumn[11],
+//                        dataInCollumn[12], dataInCollumn[13]);
+//                dataCollection.add(carModel);
 
             }
 
@@ -52,8 +63,12 @@ public class ImportData {
             }
         }
 
-        return dataCollection;
+        //return dataCollection;
 
+    }
+
+    public static void main (String [] args){
+         dataCollection();
     }
 
 }
