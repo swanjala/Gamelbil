@@ -20,6 +20,8 @@ public class Tag {
         this.dataTagValues = new Integer[carData.size()];
     }
 
+    /* Tag data using an integer index*/
+
     public HashMap<Integer, List<CarModel>> TagData() {
 
         for (int index = 0; index < mCarData.size(); index++) {

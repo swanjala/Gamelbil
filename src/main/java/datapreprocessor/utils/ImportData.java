@@ -35,16 +35,6 @@ public class ImportData {
 
                 System.out.println("data.put(\""+dataInCollumn[1]+ "\",\""+dataInCollumn[0]+"\");");
 
-
-
-//                CaModel carModel = new CarModel(    dataInCollumn[0], dataInCollumn[1],
-//                        dataInCollumn[2], dataInCollumn[3],dataInCollumn[4],
-//                        dataInCollumn[5],dataInCollumn[6],
-//                        dataInCollumn[7], dataInCollumn[8], dataInCollumn[9],dataInCollumn[10],
-//                        dataInCollumn[11],
-//                        dataInCollumn[12], dataInCollumn[13]);
-//                dataCollection.add(carModel);
-
             }
 
             bufferedReader.close();
@@ -62,8 +52,6 @@ public class ImportData {
                 }
             }
         }
-
-        //return dataCollection;
 
     }
 
